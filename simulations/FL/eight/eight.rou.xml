@@ -1,0 +1,6 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car_yellow" length="5.00" accel="3.5" decel="2.2" sigma="1.0" />
+    <vType id="car_red" length="5.00" accel="3.5" decel="2.2" sigma="1.0" color="1,0,0" />
+    <flow id="carflow_top" type="car_yellow" begin="0.00" from="edge_top" to="edge_mid" end="0.00" number="5" />
+   
+</routes>

@@ -1,0 +1,144 @@
+file 67984 1649418168                                           
+version 2
+run Default-0-20220407-10:12:23-702
+attr configname Default
+attr datetime 20220407-10:12:23
+attr experiment Default
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network FL.simulations.FL.FLScenario
+attr processid 702
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.playgroundSizeX 2500m
+param *.playgroundSizeY 2500m
+param *.playgroundSizeZ 50m
+param *.annotations.draw true
+param *.manager.updateInterval 1s
+param *.manager.host "\"localhost\""
+param *.manager.port 9999
+param *.manager.autoShutdown true
+param *.manager.launchConfig "xmldoc(\"star.launchd.xml\")"
+param *.connectionManager.sendDirect true
+param *.connectionManager.maxInterfDist 2600m
+param *.connectionManager.drawMaxIntfDist false
+param *.**.nic.mac1609_4.useServiceChannel false
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.bitrate 6Mbps
+param *.**.nic.phy80211p.minPowerLevel -110dBm
+param *.**.nic.phy80211p.useNoiseFloor true
+param *.**.nic.phy80211p.noiseFloor -98dBm
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.antenna "xmldoc(\"antenna.xml\", \"/root/Antenna[@id='monopole']\")"
+param *.node[*].nic.phy80211p.antennaOffsetY "0 m"
+param *.node[*].nic.phy80211p.antennaOffsetZ "1.895 m"
+param *.node[*].applType "\"TraCIDemo11pRoss\""
+param *.node[*].appl.headerLength "80 bit"
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 0
+param *.node[*].veinsmobility.setHostSpeed false
+param *.node[*].veinsmobility.accidentCount 1
+param *.node[*].veinsmobility.accidentStart 20s
+param *.node[*].veinsmobility.accidentDuration 30s
+
+vector 0 FLScenario.node[0].veinsmobility posx ETV
+0	9096 2171 2 622 1 90 90 184.51666666667 184.51666666667 16606.5 3064176.0250001
+vector 1 FLScenario.node[0].veinsmobility posy ETV
+1	7735 1361 2 622 1 90 90 136.27 136.27 12264.3 1671256.161
+vector 2 FLScenario.node[1].veinsmobility posx ETV
+2	16748 2171 2 622 1 90 90 201.85574074074 201.85574074074 18167.016666667 3667116.6062994
+vector 3 FLScenario.node[1].veinsmobility posy ETV
+3	14577 2171 2 622 1 90 90 84.830740740741 84.830740740741 7634.7666666667 647662.91171605
+vector 4 FLScenario.node[2].veinsmobility posx ETV
+4	24400 2171 2 622 1 90 90 183.01100529101 183.01100529101 16470.990476191 3014372.5251863
+vector 5 FLScenario.node[2].veinsmobility posy ETV
+5	22229 2171 2 622 1 90 90 34.206772486772 34.206772486772 3078.6095238095 105309.29555656
+vector 6 FLScenario.node[3].veinsmobility posx ETV
+6	31152 1361 2 622 1 90 90 111.46 111.46 10031.4 1118099.844
+vector 7 FLScenario.node[3].veinsmobility posy ETV
+7	29881 1271 2 622 1 90 90 29.94 29.94 2694.6 80676.324
+vector 8 FLScenario.node[4].veinsmobility posx ETV
+8	37994 2171 2 622 1 90 90 47.754293478261 47.754293478261 4297.8864130435 205242.52910471
+vector 9 FLScenario.node[4].veinsmobility posy ETV
+9	35823 2171 2 622 1 90 90 39.898369565217 39.898369565217 3590.8532608695 143269.19045664
+vector 10 FLScenario.node[5].veinsmobility posx ETV
+10	44836 1361 2 622 1 90 90 30.07 30.07 2706.3 81378.441
+vector 11 FLScenario.node[5].veinsmobility posy ETV
+11	43475 1361 2 622 1 90 90 89.74 89.74 8076.6 724794.084
+vector 12 FLScenario.node[6].veinsmobility posx ETV
+12	51768 2261 2 622 1 90 90 47.154736842105 47.154736842105 4243.9263157895 200121.22859834
+vector 13 FLScenario.node[6].veinsmobility posy ETV
+13	49507 2261 2 622 1 90 90 133.06105263158 133.06105263158 11975.494736842 1593471.9354682
+vector 14 FLScenario.node[7].veinsmobility posx ETV
+14	59600 2261 2 622 1 90 90 117.31082601054 117.31082601054 10557.974340949 1238564.6909348
+vector 15 FLScenario.node[7].veinsmobility posy ETV
+15	57339 2261 2 622 1 90 90 145.62274165202 145.62274165202 13106.046748682 1908538.4597626
+vector 16 FLScenario.node[8].veinsmobility posx ETV
+16	66532 1452 2 622 1 90 90 111.83 111.83 10064.7 1125535.401
+vector 17 FLScenario.node[8].veinsmobility posy ETV
+17	65171 1361 2 622 1 90 90 89.05 89.05 8014.5 713691.225
+vector 18 FLScenario.node[0].veinsmobility speed ETV
+18	6743 992 3 622 2 90 89 0 0 0 0
+vector 19 FLScenario.node[1].veinsmobility speed ETV
+19	13585 992 3 622 2 90 89 0 0 0 0
+vector 20 FLScenario.node[2].veinsmobility speed ETV
+20	21237 992 3 622 2 90 89 0 0 0 0
+vector 21 FLScenario.node[3].veinsmobility speed ETV
+21	28889 992 3 622 2 90 89 0 0 0 0
+vector 22 FLScenario.node[4].veinsmobility speed ETV
+22	34831 992 3 622 2 90 89 0 0 0 0
+vector 23 FLScenario.node[5].veinsmobility speed ETV
+23	42483 992 3 622 2 90 89 0 0 0 0
+vector 24 FLScenario.node[6].veinsmobility speed ETV
+24	48515 992 3 622 2 90 89 0 0 0 0
+vector 25 FLScenario.node[7].veinsmobility speed ETV
+25	56347 992 3 622 2 90 89 0 0 0 0
+vector 26 FLScenario.node[8].veinsmobility speed ETV
+26	64179 992 3 622 2 90 89 0 0 0 0
+vector 27 FLScenario.node[0].veinsmobility acceleration ETV
+27	5760 983 4 622 3 90 88 0 0 0 0
+vector 28 FLScenario.node[0].veinsmobility co2emission ETV
+28	4425 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 29 FLScenario.node[1].veinsmobility acceleration ETV
+29	12602 983 4 622 3 90 88 0 0 0 0
+vector 30 FLScenario.node[1].veinsmobility co2emission ETV
+30	11267 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 31 FLScenario.node[2].veinsmobility acceleration ETV
+31	20254 983 4 622 3 90 88 0 0 0 0
+vector 32 FLScenario.node[2].veinsmobility co2emission ETV
+32	18919 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 33 FLScenario.node[3].veinsmobility acceleration ETV
+33	27906 983 4 622 3 90 88 0 0 0 0
+vector 34 FLScenario.node[3].veinsmobility co2emission ETV
+34	26571 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 35 FLScenario.node[4].veinsmobility acceleration ETV
+35	33848 983 4 622 3 90 88 0 0 0 0
+vector 36 FLScenario.node[4].veinsmobility co2emission ETV
+36	32513 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 37 FLScenario.node[5].veinsmobility acceleration ETV
+37	41500 983 4 622 3 90 88 0 0 0 0
+vector 38 FLScenario.node[5].veinsmobility co2emission ETV
+38	40165 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 39 FLScenario.node[6].veinsmobility acceleration ETV
+39	47532 983 4 622 3 90 88 0 0 0 0
+vector 40 FLScenario.node[6].veinsmobility co2emission ETV
+40	46197 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 41 FLScenario.node[7].veinsmobility acceleration ETV
+41	55364 983 4 622 3 90 88 0 0 0 0
+vector 42 FLScenario.node[7].veinsmobility co2emission ETV
+42	54029 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152
+vector 43 FLScenario.node[8].veinsmobility acceleration ETV
+43	63196 983 4 622 3 90 88 0 0 0 0
+vector 44 FLScenario.node[8].veinsmobility co2emission ETV
+44	61861 1335 4 622 3 90 88 0.973 0.973 85.624 83.312152

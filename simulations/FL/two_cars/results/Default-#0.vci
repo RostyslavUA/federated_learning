@@ -1,0 +1,74 @@
+file 15451 1649418168                                           
+version 2
+run Default-0-20220407-09:36:48-404
+attr configname Default
+attr datetime 20220407-09:36:48
+attr experiment Default
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network FL.simulations.FL.FLScenario
+attr processid 404
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.playgroundSizeX 2500m
+param *.playgroundSizeY 2500m
+param *.playgroundSizeZ 50m
+param *.annotations.draw true
+param *.manager.updateInterval 1s
+param *.manager.host "\"localhost\""
+param *.manager.port 9999
+param *.manager.autoShutdown true
+param *.manager.launchConfig "xmldoc(\"twoCars.launchd.xml\")"
+param *.connectionManager.sendDirect true
+param *.connectionManager.maxInterfDist 2600m
+param *.connectionManager.drawMaxIntfDist false
+param *.**.nic.mac1609_4.useServiceChannel false
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.bitrate 6Mbps
+param *.**.nic.phy80211p.minPowerLevel -110dBm
+param *.**.nic.phy80211p.useNoiseFloor true
+param *.**.nic.phy80211p.noiseFloor -98dBm
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.antenna "xmldoc(\"antenna.xml\", \"/root/Antenna[@id='monopole']\")"
+param *.node[*].nic.phy80211p.antennaOffsetY "0 m"
+param *.node[*].nic.phy80211p.antennaOffsetZ "1.895 m"
+param *.node[*].applType "\"TraCIDemo11pRoss\""
+param *.node[*].appl.headerLength "80 bit"
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 0
+param *.node[*].veinsmobility.setHostSpeed false
+param *.node[*].veinsmobility.accidentCount 1
+param *.node[*].veinsmobility.accidentStart 20s
+param *.node[*].veinsmobility.accidentDuration 30s
+
+vector 0 FLScenario.node[0].veinsmobility posx ETV
+0	7704 1179 2 125 1 90 90 30.1 30.1 2709 81540.9
+vector 1 FLScenario.node[0].veinsmobility posy ETV
+1	5535 2169 2 125 1 90 90 26.611228533686 26.611228533686 2395.0105680317 63734.173566486
+vector 2 FLScenario.node[1].veinsmobility posx ETV
+2	14091 1360 2 125 1 90 90 208.22 208.22 18739.8 3902001.156
+vector 3 FLScenario.node[1].veinsmobility posy ETV
+3	11922 2169 2 125 1 90 90 23.410495986829 23.410495986829 2106.9446388146 49324.61901144
+vector 4 FLScenario.node[0].veinsmobility speed ETV
+4	4634 901 3 125 2 90 89 0 0 0 0
+vector 5 FLScenario.node[1].veinsmobility speed ETV
+5	11021 901 3 125 2 90 89 0 0 0 0
+vector 6 FLScenario.node[0].veinsmobility acceleration ETV
+6	3741 893 4 125 3 90 88 0 0 0 0
+vector 7 FLScenario.node[0].veinsmobility co2emission ETV
+7	2496 1245 4 125 3 90 88 0.973 0.973 85.624 83.312152
+vector 8 FLScenario.node[1].veinsmobility acceleration ETV
+8	10128 893 4 125 3 90 88 0 0 0 0
+vector 9 FLScenario.node[1].veinsmobility co2emission ETV
+9	8883 1245 4 125 3 90 88 0.973 0.973 85.624 83.312152
