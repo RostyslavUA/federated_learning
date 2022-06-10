@@ -1,3 +1,4 @@
+# Federated Learning for Cooperative Perception in Vehicular Networks (Ongoing Project)
 The goal of this project is to enable vehicular cooperative perception using Deep Learning techniques in Federated Learning paradigm [[1]](#1). Technically speaking, this repository provides the modules to generate and manage a vehicular network in OMNeT++ [[2]](#2), collect the communication statistics in Veins [[3]](#3) (for now only bandwidth consumed by the message transmission and delay) as well as C++ - Python API [[4]](#4).
 A block diagram of the program can be found below.
 
@@ -16,6 +17,3 @@ It was executed on Ubuntu-20.04 via WSL
 <a id="2">[2]</a> https://doc.omnetpp.org/workshop2008/omnetpp40-paper.pdf \
 <a id="3">[3]</a> https://ieeexplore.ieee.org/document/5510240 \
 <a id="4">[4]</a> https://zeromq.org/
-
-
-
