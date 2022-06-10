@@ -2,7 +2,7 @@ The goal of this project is to enable vehicular cooperative perception using Dee
 A block diagram of the program can be found below.
 
 ![image](https://user-images.githubusercontent.com/49762976/173147791-e93bc5ba-80a3-49c9-8c4e-9870f2ab0644.png)
-Running the simulation for the first time can be a complex thing to do. For this purpose, below you can find the video highlighting the program's main functionality.
+Running the simulation for the first time can be a complex thing to do. For this purpose, below you can find a link to the video highlighting the program's main functionality. \
 https://user-images.githubusercontent.com/49762976/173159771-cc975128-f8bb-4162-b7bf-ea6cb3cc43b2.mov
 
 Program versions used to run the simulation
